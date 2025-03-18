@@ -348,7 +348,7 @@ class View:
         pyxel.cls(col=pyxel.COLOR_BLACK)
         pyxel.text(x=self._width/2, y=self._height/2, s=f'PRESS {key} TO START', col=pyxel.COLOR_WHITE)
 
-    def ended_screen(self, points: int, key_restart: int, key_quit: int):
+    def ended_screen(self, points: float, key_restart: int, key_quit: int):
         pyxel.cls(col=pyxel.COLOR_RED)
         pyxel.text(x=self._width/2, y=self._height/2, s=f'YOU GOT {points} POINTS!', col=pyxel.COLOR_WHITE)
         pyxel.text(x=self._width/2, y=self._height/2 + 5, s=f'PRESS {key_restart} TO RESTART', col=pyxel.COLOR_WHITE)
