@@ -1,2 +1,2 @@
-# physics_test
-Testing a physics engine for a ball
+# Platform Destroyer
+Weird game where you break platforms. Buggy scoreboard
