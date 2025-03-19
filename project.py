@@ -1,5 +1,5 @@
 import pyxel
-from physics import PhysicsModel, Ball
+from physics_1_0.physics import PhysicsModel, Ball
 from project_types import Platform
 
 import random
