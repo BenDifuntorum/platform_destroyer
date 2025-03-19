@@ -9,7 +9,7 @@ def init(fps: int, width: int, height: int):
 
 
 def main():
-    FPS = 120
+    FPS = 60
     WIDTH = 900
     HEIGHT = 900
     return init(FPS, WIDTH, HEIGHT)
