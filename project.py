@@ -1,5 +1,5 @@
 import pyxel
-from physics_1_0.physics import PhysicsModel, Ball
+from physics.physics import PhysicsModel, Ball
 from project_types import Platform
 
 import random
@@ -32,6 +32,7 @@ class Model(PhysicsModel):
         pyxel.init(width, height, fps=fps, title='BONUCHE', quit_key=pyxel.KEY_Q)
 
     def _init_ball(self):
+        super()._init_ball()
         self._ball.x = 100
         self._ball.y = 100
         self._ball.v_x = 0
